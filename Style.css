@@ -1,0 +1,164 @@
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+
+
+<style>
+ 
+ body{
+  
+ 
+ }
+ 
+ 
+ .header{
+ 
+  padding: 10px;
+  top:0;
+  text-align: center;
+  text-decoration:blink;
+  font-weight:900;
+  background-color:silver;
+  position:fixed;
+  text-decoration:blink;
+  font-style:inherit;
+  width:100%;
+  font-family:sans-serif;
+  opacity:0.6;
+   
+ }
+ 
+ 
+ .header .logo img{
+ 
+   width: 15%; height:60%;
+ top:20%;
+ 
+ 
+ 
+ padding-top:0;
+  position:absolute;
+  
+ }
+ .sidenav {
+  height: 100%;
+  width: 200px;
+  position:fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:silver;
+  overflow-x: hidden;
+  margin-top:108px;
+  opacity:0.6;
+  margin-left:8px; 
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+
+                  /* Side navigation links */
+
+.sidenav a {
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  border:medium;
+  border-color:black;
+  display: block;
+}
+
+                  /* Change color on hover */
+.sidenav a:hover {
+  background-color: #111;
+  color: white;
+}
+ 
+ 
+ 
+ .content{
+ 
+    top:50%;
+  padding-left: 20px;
+  font-family:sans-serif;
+  font-size:large;
+  font-stretch: wider;
+  margin-left:280px;
+  position:relative;
+  font-weight: bold; 
+ 
+ 
+ }
+ 
+ .content h5{
+ position:absolute;
+ margin-top:50%;
+ font-family: monospace;
+ }
+ 
+ 
+ .content h2{
+ position:absolute;
+ margin-top:35%;
+ font-family:sans-serif;
+ }
+ 
+ .content p{
+ position:absolute;
+ margin-top:60%;
+ font-family:monospace;
+ }
+ 
+ 
+ 
+.content button{
+ padding: 10px 45px;
+ text-align: center;
+ font-size: 14px;
+ color:grey;
+ opacity:0.5;
+ font-family:sans-serif;
+ border: none;
+ font-weight:bolder;
+ margin-top:90%;
+  margin-bottom:20%;
+ border-radius: 50px;
+} 
+ 
+ .content button:hover {
+    background-color: #111; 
+  color: white;
+}
+ 
+ 
+.footer{
+	 
+    margin:0px;
+  padding:20px;
+  bottom:0%;
+  text-align:center;
+  
+  background-color:grey;
+  position: inherit;
+  margin-left:16.7%;
+  bottom:0;
+  font-family:sans-serif;
+  opacity:0.3;
+  
+  margin-right: 0%;
+  
+} 
+
+
+.footer h6{
+	
+	font-family: sans-serif;
+	text-align: center;
+	
+ 
+	
+}
+</style>
+
+
+
